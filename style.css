@@ -20,8 +20,7 @@ body {
   color: #fefce8;
 }
 
-#dashboard > h1 {
-  padding: 20px;
+#dashboard h1 {
   font-size: 30px;
 }
 
@@ -32,7 +31,35 @@ body {
 
 #dashboard nav ul {
   display: grid;
-  gap: 5px;
+  gap: 15px;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  color: white
+}
+
+.iconContainer img {
+  height: 100%;
+  width: 60px;
+  filter: invert(1);
+}
+
+#dashboard li {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#dashboard li img {
+  height: 100%;
+  width: 25px;
+  filter: invert(1);
 }
 
 #topbar {
