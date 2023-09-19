@@ -4,15 +4,6 @@
   list-style: none;
 }
 
-@media (max-width: 600px) {
-  body {
-    grid-template-columns: 1fr;
-  }
-
-  #sidebar {
-    display: none;
-  }
-}
 
 body {
   margin: 0;
@@ -135,3 +126,12 @@ main {
   border: 1px solid blue;
 }
 
+@media (max-width: 600px) {
+  body {
+    grid-template-columns: 1fr;
+  }
+
+  #sidebar {
+    display: none;
+  }
+}
